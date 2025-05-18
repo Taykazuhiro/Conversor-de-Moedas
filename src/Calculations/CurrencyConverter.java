@@ -1,3 +1,7 @@
+package Calculations;
+
+import Api.ApiConnection;
+
 import java.util.Map;
 
 public class CurrencyConverter {

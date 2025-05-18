@@ -1,5 +1,8 @@
+import Api.ApiConnection;
+import Calculations.CurrencyConverter;
+import Models.Message;
+
 import java.util.InputMismatchException;
-import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
@@ -7,19 +10,10 @@ public class Main {
         Scanner reader = new Scanner(System.in);
         ApiConnection connection = new ApiConnection();
         CurrencyConverter converter = new CurrencyConverter();
-
-        String menu = "************* Welcome *************\n" +
-                "1) Dollar > Brazilian Real\n" +
-                "2) Brazilian Real > Dollar\n" +
-                "3) Dollar > Pound Sterling\n" +
-                "4) Pound Sterling > Dollar\n" +
-                "5) Dollar > Chilean Peso\n" +
-                "6) Chilean Peso > Dollar\n" +
-                "7) Leave\n" +
-                "****** Select a number *******\n";
+        Message menu = new Message();
 
         while (true) {
-            System.out.println(menu);
+            menu.printMenu();
             int option = 0;
             // tentativa de leitura e tratamento de erro de inserção de valor.
             try {
