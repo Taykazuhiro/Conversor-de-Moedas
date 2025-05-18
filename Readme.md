@@ -2,12 +2,13 @@
 <a id="readme-top"></a>
 <p align="center">
 
+<img src = "ONE_logo_rgb.png">
+
 <h1 align="center">Currency Converter</h1> 
 
   <h4 align="center"> Version & Language </h4>
   <p align="center">
-  | <img src="https://img.shields.io/badge/version-4-blue"> | <img src="https://img.shields.io/badge/language-Java%2021.07-orange
-"> |
+  | <img src="https://img.shields.io/badge/version-4-blue"> | <img src="https://img.shields.io/badge/language-Java%2021.07-orange"> |
 </p>
 
 ### Summary
