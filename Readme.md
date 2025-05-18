@@ -7,7 +7,7 @@
 <h1 align="center">Currency Converter</h1> 
 
   <p align="center">
-   <img src="https://img.shields.io/badge/version-4-blue"> | <img src="https://img.shields.io/badge/language-Java%2021.07-orange">
+   <img src="https://img.shields.io/badge/version-4-blue"> <img src="https://img.shields.io/badge/language-Java%2021.07-orange">
 </p>
 
 ### Summary
