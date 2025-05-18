@@ -2,7 +2,7 @@
 <a id="readme-top"></a>
 <p align="center">
 
-<img src = "ONE_logo_rgb.png" width="200" height="150">
+<img src = "ONE_logo_rgb.png" width="300" height="150">
 
 <h1 align="center">Currency Converter</h1> 
 
