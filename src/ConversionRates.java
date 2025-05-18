@@ -1,10 +1,11 @@
 import java.util.Map;
 
-public class ConversationRates {
+public class ConversionRates {
     private String status;
     private String baseCode;
     private String exchargeCode;
     private Map<String, Double> conversion_rates;
+    private ApiConnection api = new ApiConnection();
 
     public String getExchargeCode() {
         return exchargeCode;
@@ -21,4 +22,4 @@ public class ConversationRates {
     public Map<String, Double> getConversion_rates() {
         return conversion_rates;
     }
-}
+    }
